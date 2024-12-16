@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>combinators</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- Given the following HTML structure, write a CSS rule using the child combinator (>) to select all <p> elements that are direct children of the <p> with the class menu. -->
+        <h1>use child combinator</h1>
+    <div class="container1">
+        <p>direct child1</p>
+        <span>
+            <p>indirect child1</p>
+        </span>
+        <p>direct child2</p>
+            <div>
+                <p>indirect child2</p>
+                <p>indirect child3</p>
+            </div>
+            <p>direct child3</p>
+        </div>
+        <!-- Given the following HTML structure, write a CSS rule using the descentdant combinator  (space) to select all <p> elements that are inside the <span>, <div> of the <p> with the class menu. -->
+        <h1> use descentdant combinator</h1>
+        <div class="container2">
+            <p>direct child1</p>
+            <span><p>indirect child1</p></span>
+            <p>direct child2</p>
+            <div>
+                <p>indirect child2</p>
+            </div>
+            <p>direct child</p>
+        </div>
+          <!-- Given the following HTML structure, write a CSS rule using the adjacent combinator  (+) to select all <p> elements that are adjacent sibling of specified element  -->
+            <h1> use adjacent sibling</h1>
+            <div class="container3">
+                <p>direct child1</p>
+                <span><p>indirect child1</p></span>
+                <p>direct child2</p>
+                <div>
+                    <p>indirect child2</p>
+                </div>
+                <p>direct child</p>
+            </div>
+            <p> adjacent sibling</p>
+            <p>adjacent sibling</p>
+            <p>adjacent sibling</p>
+             <!-- Given the following HTML structure, write a CSS rule using the general combinator  (+) to select all <p> elements that are adjacent sibling of specified element  -->
+                <h1>use general sibling</h1>
+            <div class="container4">
+                <p>direct child1</p>
+                <span><p>indirect child1</p></span>
+                <p>direct child2</p>
+                <div>
+                    <p>indirect child2</p>
+                </div>
+                <p>direct child</p>
+            </div>
+            
+            <p> general sibling</p>
+            <span>container</span>
+            <p>general sibling</p>
+            <p>general sibling</p>
+            <p>general sibling</p>
+            <p>general sibling</p>
+            <p>general sibling</p>
+
+</body>
+</html>

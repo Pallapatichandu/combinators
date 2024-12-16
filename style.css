@@ -1,0 +1,21 @@
+.container1>p{
+    background-color: green;
+
+}
+.container2 p{
+    background-color: yellow;
+
+}
+.container3+p{
+    background-color: blue;
+
+}
+.container4~p{
+    background-color:pink;
+
+}
+
+
+
+
+ 
